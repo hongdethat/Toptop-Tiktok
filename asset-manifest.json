@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.91bac0cc.css",
+    "main.js": "./static/js/main.97d7d33f.js",
+    "static/css/777.5ebae2e1.chunk.css": "./static/css/777.5ebae2e1.chunk.css",
+    "static/js/777.008704af.chunk.js": "./static/js/777.008704af.chunk.js",
+    "static/js/787.f181e5a8.chunk.js": "./static/js/787.f181e5a8.chunk.js",
+    "static/media/visao.mp4": "./static/media/visao.b1d4c1f12a40dfaeaa61.mp4",
+    "static/media/_1648174617.jpg": "./static/media/21cb1c649d824c5687d605d6aeaf0dcd_1648174617.61e5c2e10ccd3adb6188.jpg",
+    "static/media/none.png": "./static/media/none.a6143582309785dca610.png",
+    "static/media/favicon.png": "./static/media/favicon.4dfc842829b832ef26ff.png",
+    "static/media/tiktok-logo-B9AC5FE794-seeklogo.com.png": "./static/media/tiktok-logo-B9AC5FE794-seeklogo.com.6a0d18fb598baeac5006.png",
+    "index.html": "./index.html",
+    "main.91bac0cc.css.map": "./static/css/main.91bac0cc.css.map",
+    "main.97d7d33f.js.map": "./static/js/main.97d7d33f.js.map",
+    "777.5ebae2e1.chunk.css.map": "./static/css/777.5ebae2e1.chunk.css.map",
+    "777.008704af.chunk.js.map": "./static/js/777.008704af.chunk.js.map",
+    "787.f181e5a8.chunk.js.map": "./static/js/787.f181e5a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91bac0cc.css",
+    "static/js/main.97d7d33f.js"
+  ]
+}
