@@ -1,0 +1,55 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+html, body{
+  font-family: "sofiapro-regular";
+}
+html::-webkit-scrollbar {
+    width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: rgb(15, 23, 36, 0.2);
+    padding: 0 2px;
+    cursor: pointer;
+}
+
+body {
+  font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+  font-size: 14px;
+  color: rgb(22, 24, 35);
+  background-color: rgb(255, 255, 255);
+  overscroll-behavior: contain;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+a{
+  text-decoration: none;
+  color: rgb(22, 24, 35);
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+input[type="file" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    align-items: baseline;
+    color: inherit;
+    text-overflow: ellipsis;
+    white-space: pre;
+    text-align: start !important;
+    padding: initial;
+    border: initial;
+    overflow: hidden !important;
+}

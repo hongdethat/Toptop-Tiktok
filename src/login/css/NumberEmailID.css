@@ -1,0 +1,79 @@
+.NumberEmailID__container{
+	background: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.NumberEmailID__container header{
+	height: 48px;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+.NumberEmailID__Login__title{
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    font-size: 24px;
+    line-height: 32px;
+    top: 48px;
+    bottom: unset;
+    flex: 1;
+    text-align: center;
+    font-weight: bolder;
+    color: #000;
+    font-family: "ProximaNova-bold";
+}
+.NumberEmailID__back {
+    position: fixed;
+    top: 20px;
+    left: 16px;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url(//lf16-tiktok-web.ttwstatic.com/obj/tiktok-web/tiktok/webapp_login/svgs/back_modal.bbfe2402.svg);
+    cursor: pointer;
+}
+.NumberEmailID__body{
+	margin-top: 0;
+	min-height: auto;
+    padding: 0 48px 64px;
+    height: 140px;
+    flex: 1;
+    background-color: #fff;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 472px;
+    width: 100%;
+}
+.NumberEmailID__body__div{
+    font-size: 16px;
+    line-height: 22px;
+    color: #161823;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NumberEmailID__Toptop{
+    margin: 0;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 17px;
+    color: #161823;
+    font-weight: 600;
+    cursor: pointer;
+}
+.NumberEmailID__Toptop:hover{
+	text-decoration: underline;
+}

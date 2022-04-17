@@ -1,0 +1,270 @@
+.UserContainers{
+	padding: 16px 0;
+    color: rgba(22, 24, 35, 0.75);
+    font-family: "IBM Plex Sans",ProximaNova,Arial,Tahoma,PingFangSC,sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+}
+.UserContainers::before{
+	content: "";
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    top: 0;
+    height: 1px;
+    background: rgba(22, 24, 35, 0.12);
+    -webkit-transform: scaleY(0.5);
+    -moz-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+.UserContainers__p{
+	padding: 0 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+.UserContainers__user{
+	padding: 8px;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    border-radius: 4px;
+    transition: background 200ms ease-in-out 0s;
+    cursor: pointer;
+}
+.UserContainers__user:hover{
+	background: rgba(22, 24, 35, 0.03);
+}
+
+.dropdown-content {
+    display: none;
+    width: 320px;
+    position: absolute;
+    z-index: 1009;
+    box-sizing: border-box;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 12%) 0px 4px 16px;
+    border-radius: 8px;
+}
+
+.dropdown-content span {
+  color: #000;
+  text-decoration: none;
+}
+
+.Hover__UserProfile:hover .dropdown-content {
+  display: block;
+}
+.UserContainers__img{
+	position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-right: 12px;
+    flex: 0 0 48px;
+}
+.UserContainers__img img{
+	width: 32px;
+	height: 32px;
+}
+.UserContainers__span{
+	-webkit-box-flex: 1;
+    flex-grow: 1;
+    height: 32px;
+}
+.UserContainers__flex{
+	display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.UserContainers__BsCheck2{
+	color: #fff;
+	margin-left: 4px;
+	background: #20D5EC;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+}
+.UserContainers__top_top__p{
+	color: rgba(22, 24, 35, 0.75);
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    max-width: 260px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+}
+.UserContainers__addviews{
+	display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 8px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.UserContainers__p__addviews{
+	color: rgb(254, 44, 85);
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.Dropdown__flex__Link{
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.Dropdown__flex__ab{
+    display: block;
+    width: 44px;
+    flex: 0 0 44px;
+}
+.img__hover__dropdown{
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-feature-settings: "tnum";
+    position: relative;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+    border-radius: 50%;
+    background-color: rgba(136, 136, 136, 0.5);
+}
+.img__span__drop{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.UserContainers__Follow__me{
+    border-radius: 4px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(254, 44, 85);
+    min-width: 106px;
+    min-height: 28px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    font-family: ProximaNova, PingFangSC, sans-serif;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 6px 8px;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.UserContainers__Follow__me:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), rgb(254, 44, 85);
+}
+.UserContainers__UnFollow{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    color: rgb(22, 24, 35);
+    border-color: rgba(22, 24, 35, 0.12);
+    background-color: rgb(255, 255, 255);
+    min-width: 106px;
+    min-height: 28px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    font-family: ProximaNova, PingFangSC, sans-serif;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 6px 8px;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.UserContainers__UnFollow:active{
+    border-color: rgb(208, 209, 211);
+    background-color: rgb(241, 241, 242);
+}
+.UserContainers__UnFollow:hover{
+    border-color: rgb(208, 209, 211);
+    background-color: rgb(241, 241, 242);
+}
+.UserContainers__Follow__me__als{
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+}
+.UserContainers__Follow__me__als span{
+    color: rgb(22, 24, 35);
+    font-family: "IBM Plex Sans", SofiaPro, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.UserContainers__Follow__me__als2{
+    color: rgb(22, 24, 35);
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.margin__UserContainer{
+    margin-top: 8px;
+}
+.margin__UserContainer__follower{
+    font-weight: 700;
+    margin-right: 6px;
+    font-size: 17px;
+    line-height: 20px;
+    display: inline-block;
+}
+.Margin__span__text:not(:last-of-type) {
+    margin-right: 12px;
+}
+.Margin__span__text{
+    color: rgba(22, 24, 35, 0.75)!important;
+    font-size: 17px;
+    line-height: 20px;
+    display: inline-block;
+    font-weight: normal;
+}
+.UserContainers__flex h4{
+    color: rgb(22, 24, 35);
+    font-family: "IBM Plex Sans", SofiaPro, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: -2px;
+    max-width: 260px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

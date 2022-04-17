@@ -1,0 +1,342 @@
+.Header__search{
+	display: flex;
+	align-items: center;
+	padding: 12px 16px;
+	background: rgba(22, 24, 35, 0.06);
+	border-radius: 92px;
+	overflow: hidden;
+}
+.Header__fisearch{
+	width: 24px;
+	height: 24px;
+	color: rgba(22, 24, 35, 0.12);
+	cursor: pointer;
+}
+.Header__search input{
+	color: rgba(22, 24, 35, 0.12);
+	background: transparent;
+	border: none;
+	outline: none;
+	font-family: "IBM Plex Sans",ProximaNova,Arial,Tahoma,PingFangSC,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0;
+    width: 292px;
+    caret-color: rgba(254, 44, 85, 1.0);
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    -ms-appearance: textfield;
+    appearance: textfield;
+    color: rgb(22, 24, 35);
+}
+
+.Header__left__input{
+	width: 1px;
+    height: 28px;
+    margin: -3px 0;
+    background: rgba(22, 24, 35, 0.12);
+}
+.Header__search button{
+	padding: 11px 16px 11px 12px;
+    margin: -12px -16px;
+    font-size: 0;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+    margin-left: 0;
+    transition: all 0.3s;
+}
+.Header__search button:hover{
+	background: rgba(22, 24, 35, 0.03);
+}
+.Header__search_upload{
+	font-family: "IBM Plex Sans",ProximaNova,Arial,Tahoma,PingFangSC,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: block;
+    position: all 0.3s;
+    cursor: pointer;
+}
+.Header__search_upload:hover{
+	text-decoration: underline; 
+}
+.Header__btn{
+	border-radius: 4px;
+    border: none;
+    color: rgba(255, 255, 255, 1.0);
+    background-color: rgba(254, 44, 85, 1.0);
+    min-width: 164px;
+    min-height: 36px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: SofiaPro,PingFangSC,sans-serif;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 6px 8px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans",ProximaNova,Arial,Tahoma,PingFangSC,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 16px;
+    min-width: 100px;
+}
+.Header__btn:hover{
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),#FE2C55;
+}
+.Header__More{
+	width: 20px;
+    height: 20px;
+    display: block;
+    cursor: pointer;
+}
+.Header__flex__all{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.Flex__H{
+	width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 1150px;
+    /*padding-right: 24px;*/
+    padding-left: 20px;
+}
+.Header__search__TopTop{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-around;
+    -ms-flex-pack: space-around;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    height: 60px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 1.0);
+    z-index: 1000;
+}
+.icon__header{
+	margin-left: 16px;
+    position: relative;
+    cursor: pointer;
+    font-style: normal;
+    padding: 0 4px;
+}
+
+.dropdown-menu {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    text-align: center;
+    top: 0;
+    visibility: hidden;
+    z-index: -99999;
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 8px 0px;
+    min-width: 234px;
+    list-style: none;
+}
+.dropdown-menu:after{
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #fff;
+    content: "";
+    position: absolute;
+    top: -8px;
+    right: 6px;
+}
+.dropdown-menu li:first-child {
+  cursor: default;
+}
+
+.dropdown-menu a {
+    display: flex;
+    white-space: nowrap;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.dropdown-menu li{
+    padding: 10px 16px;
+}
+.dropdown-menu li:hover{
+    background: rgba(22, 24, 35, 0.03);
+}
+.icon__header:hover .dropdown-menu {
+    background: #fff;
+    visibility: visible;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    top: calc(100% + 12px);
+    box-shadow: rgb(0 0 0 / 12%) 0px 4px 16px;
+    transition: opacity 300ms ease 0s;
+    opacity: 1;
+}
+.Header__More__icon{
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+}
+.SVG__Toptop{
+    display: block;
+    width: 24px;
+    height: 8px;
+    position: absolute;
+    top: -8px;
+}
+.HeaderAuth__Avatar{
+    position: relative;
+    cursor: pointer;
+    height: 20px;
+    height: unset;
+}
+.HeaderAuth__1{
+    position: relative;
+    cursor: pointer;
+    height: 20px;
+    margin-left: 16px;
+    display: flex;
+}
+.HeaderAuth__2{
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-feature-settings: "tnum";
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+.HeaderAuth__2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.HeaderAuth__menu__right{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+}
+.HeaderAuth__Content{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 20px 0 12px;
+}
+.HeaderAuth__Color{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 60px;
+    background: #fff;
+    border-bottom: 1px solid rgba(34,90,89,0.2);
+    box-sizing: border-box;
+    z-index: 1000;
+}
+.HeaderAuth__icon{
+    height: 26px;
+    width: 26px;
+    position: relative;
+    margin-left: 16px;
+    height: 32px;
+    font-family: "proxima-regular",Arial,Tahoma,PingFangSC,sans-serif,"Segoe UI Emoji","Noto Emoji";
+    font-weight: 400;
+    cursor: pointer;
+}

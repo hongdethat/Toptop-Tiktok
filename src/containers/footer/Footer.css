@@ -1,0 +1,140 @@
+.Footer{
+	width: 100%;
+	background: #000;
+	padding-bottom: 24px;
+	padding-left: 0;
+	padding-top: 0;
+	color: #fff;
+}
+.Footer__content{
+	display: flex;
+	grid-gap: 6px;
+}
+.Footer__img1{
+	width: 33px;
+}
+.Footer__content div{
+	font-family: Moderat,sans-serif;
+	font-weight: bold;
+	font-size: 2.3rem;
+	color: #fff;
+	text-shadow: -0.6px -0.6px 0 #5fc9af, 0.6px 0.6px 0 #d231a0;
+}
+.Footer__column{
+    -webkit-flex: 1 1 0%;
+    -ms-flex: 1 1 0%;
+    flex: 1 1 0%;
+    max-width: 226px;
+    padding-right: 8px;
+    color: #fff;
+}
+.Footer__column h4{
+	margin-bottom: 6px;
+}
+.Footer__span{
+	display: block;
+	text-align: left;
+}
+.Footer__span a{
+	display: inline;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    position: relative;
+}
+.Footer__span h5{
+	color: #ccc;
+    display: inline;
+    font-family: "sofiapro-medium",Arial,Tahoma,PingFangSC,sans-serif,"Segoe UI Emoji","Noto Emoji";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    position: relative;
+}
+.Footer__span h5:hover{
+	padding-bottom: 2px;
+    border-bottom: 2px solid #ccc;
+}
+.Footer footer{
+	position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+    padding: 40px 0 0 378px;
+}
+.Footer__logo{
+	display: block;
+    position: absolute;
+    left: 144px;
+    top: 43px;
+}
+.Footer__margin{
+	padding: 0 144px;
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.Footer__margin select{
+	font-family: "proxima-regular",Arial,Tahoma,PingFangSC,sans-serif,"Segoe UI Emoji","Noto Emoji";
+    font-weight: 400;
+    box-sizing: border-box;
+    width: 172px;
+    height: 36px;
+    border: 1px solid #8a8b91;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 36px;
+    padding: 0 16px;
+    cursor: pointer;
+    position: relative;
+    text-align: left;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: transparent;
+    color: #fff;
+    outline: none;
+}
+.Footer__margin option{
+	color: #000;
+}
+.Footer__margin span{
+	font-family: "sofiapro-medium",Arial,Tahoma,PingFangSC,sans-serif,"Segoe UI Emoji","Noto Emoji";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    line-height: 24px;
+    color: #8a8b91;
+    display: flex;
+    align-items: center;
+    grid-gap: 6px;
+}

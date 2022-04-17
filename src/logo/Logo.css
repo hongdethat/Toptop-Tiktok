@@ -1,0 +1,13 @@
+.Logo {
+  font-family: Moderat,sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #000;
+  text-shadow: -0.6px -0.6px 0 #5fc9af, 0.6px 0.6px 0 #d231a0;
+}
+.Logo__img{
+  width: 26px;
+}
+.Logo__Link{
+  display: flex;
+}

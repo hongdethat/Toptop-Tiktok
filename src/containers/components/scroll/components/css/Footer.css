@@ -1,0 +1,38 @@
+.Footer{
+    position: relative;
+    padding-top: 16px;
+    padding-left: 8px;
+}
+.Footer:before{
+	content: "";
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    top: 0;
+    height: 1px;
+    background: rgba(22, 24, 35, 0.12);
+    -webkit-transform: scaleY(0.5);
+    -moz-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+.Footer p{
+	color: rgba(22, 24, 35, 0.5);
+    font-family: "IBM Plex Sans",ProximaNova,Arial,Tahoma,PingFangSC,sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 5px;
+    text-align: left;
+    cursor: pointer;
+}
+.Footer p:hover{
+	color: rgb(22, 24, 35);
+    text-decoration: underline;
+}
+.Footer__1, .Footer__2, .Footer__3, .Footer__4, .Footer__5{
+	margin-bottom: 8px;
+	text-align: left;
+}
